@@ -1,0 +1,212 @@
+body{
+    max-width: 1440x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 1440px;
+    height: 1024px;
+    background-image: url(./image\ 1.png);
+}
+.cs{
+    margin: 30px 52px;
+    display: flex;
+    gap: 463px;
+}
+.chap{
+    display: flex;
+    align-items: center;
+}
+.b{
+    color: #D5D5D6;
+    font-size: 20px;
+    margin-left: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.88);
+}
+.chap button{
+    background-color: #009FF5;
+    width: 243px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 21px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 68px;
+}
+.chap button p{
+    margin: 0px;
+}
+.chap button:hover{
+    background-color: #009FF5B5;
+    box-shadow: 0px 4px 4px #DAD3FF;
+}
+.chap button:active{
+    background-color: #ababab;
+    color: black;
+}
+.select{
+    background-color: transparent;
+    border: 0px;
+    color: #D5D5D6;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+}
+option{
+    background-color: white;
+    border: black;
+    font-weight: bold;
+}
+.best{
+    width: 582px;
+    height: 81px;
+    background-color: #FFC611;
+    color: black;
+    font-weight: bold;
+    border: 11px solid #5A5555;
+    border-radius: 50px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 177px;
+    margin-left: 443px;
+    text-shadow: 4px 4px 4px rgba(0, 71, 255, 1);
+}
+.uchta{
+    display: flex;
+    justify-content: center;
+    gap: 127px;
+    margin-top: 0px;
+    margin-top: 132px;
+}
+.uchta div{
+    width: 361px;
+    height: 420px;
+    background-color: #1F1F1F;
+    text-align: center;
+    align-items: center;
+    font-size: 36px;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+}
+.uchta div p{
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px #FFC200;
+}
+main{
+    width: 1440px;
+    height: 1042px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    font-size: 64px;
+    color: #5A5555;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 61px;
+    font-weight: bold;
+}
+main .info{
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 1);
+}
+.ikkita{
+    display: flex;
+    text-align: center;
+    gap: 87px;
+    margin-top: 58px;
+}
+.ikkita div p{
+    color: white;
+    font-size: 27px;
+    margin: 0px;
+    font-weight: bold;
+}
+.ikkita div{
+    text-align: start;
+}
+.ikkita img{
+    width: 571;
+    height: 305px;
+}
+.but{
+    color: white;
+    background-color: #535353;
+    width: 278px;
+    height: 61px;
+    text-align: center;
+    align-items: center;
+    margin-top: 104px;
+    font-size: 27px;
+    font-weight: bold;
+    border: 0px;
+}
+.but:hover{
+    border: 0px;
+    box-shadow: 0px 7px 12.8px 0px white;
+
+}
+.ikkita1{
+    display: flex;
+    text-align: center;
+    gap: 87px;
+    margin-top: 168px;
+}
+.ikkita1 div p{
+    color: white;
+    font-size: 27px;
+    margin: 0px;
+    font-weight: bold;
+}
+.ikkita1 div{
+    text-align: start;
+}
+.ikkita1 img{
+    width: 571;
+    height: 305px;
+}
+.but1{
+    color: rgb(0, 0, 0);
+    background-color: #FFC200;
+    width: 278px;
+    height: 61px;
+    text-align: center;
+    align-items: center;
+    margin-top: 104px;
+    font-size: 27px;
+    font-weight: bold;
+    border: 0px;
+}
+.but1:hover{
+    border: 0px;
+    box-shadow: 0px 7px 12.8px 0px white;
+}
+footer{
+    width: 1440px;
+    height: 158px;
+    background-color: #FFC611;
+    display: flex;
+    gap: 997px;
+    text-align: center;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    gap: 42px;
+}
+.logo{
+    width: 101px;
+    height: 55px;
+    margin-left: 58px;
+}
