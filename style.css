@@ -1,5 +1,6 @@
 body{
-    width: 1440x;
+    width: 100%;
+    max-width: 1440x;
     display: flex;
     flex-direction: column;
     align-items: center;
